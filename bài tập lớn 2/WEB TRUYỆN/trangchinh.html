@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Trang danh sách truyện</title>
+        <style>
+                .gallery {
+        display: flex;
+    }
+    .gallery img {
+        width: 250px;
+        height: 400px;
+        margin: 20px;
+        transition: transform 0.2s;
+    }
+    .gallery img:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    h1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+    h1 {
+    font-size: 34px; 
+}
+.aa   {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #000508;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: aqua;
+}
+.link{
+    text-decoration: none ;
+    color: #010101;
+    margin: 0 10px;
+}
+
+.chea {
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        0%, 49.9%, 100% {
+            opacity: 1;
+        }
+        50%, 99.9% {
+            opacity: 0;
+        }
+    }
+    .chea{
+        background-color: rgb(238, 255, 3);
+    }
+.content {
+    margin-top: 20px;
+}
+.aa {
+    text-align: center;
+    margin: 0 auto;
+    width: 98%;
+}
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+        </style>
+    </head>
+    <body>
+        <h1 class="chea">TRANG CHỦ DANH SÁCH TRUYỆN </h1>
+        <div class="aa">
+            <a href="trangchu.html" href="tranngtruyen.html" class="linkk">☰</a>
+            <a href="tranngchu.html" class="link">Truyện Hot    </a>    
+            <a href="tranngtruyen.html" class="link">tập truyện khác  </a>  
+            <a href="ngoaitruyen.html" class="link">Nội Dung Truyện</a>
+
+            </div>
+            <br></br>
+            <br></br>
+      
+        <div class="gallery">
+            <a href="laohac.html"><img src="https://bizweb.dktcdn.net/100/370/339/products/z4529778288710-9a538b8bcac451561af81cd240d963a1.jpg?v=1689758099500" alt="Image 1"></a>
+            <p><br>Truyện:LÃO HẠC</br>
+               <br>Tác giả:NAM CAO</br>
+               <br>phát hành:2018</br>
+                </p>
+            <a href="demen.html"><img src="https://sachxuasaigon.com/wp-content/uploads/2020/01/De-men-phieu-luu-ky-1.jpg" alt="Image 2"></a>
+            <p><br>Truyện:DẾ MÈN PHIÊU LƯU KÍ</br>
+                <br>Tác giả:TÔ HOÀI</br>
+                <br>phát hành:1941</br>
+                 </p>
+            <a href="yeuem.html"><img src="https://cdn0.fahasa.com/media/catalog/product/s/a/sach-yeu-em-tu-cai-nhin-dau-tien_1.jpg" alt="Image 3"></a>
+            <p><br>Truyện:YÊU EM TỪ CÁI NHÌN ĐẦU TIÊN</br>
+                <br>Tác giả:Đang cập nhật</br>
+                <br>Trạng thái:Đang cập nhật</br>
+                 </p>
+        </div>
+        <script>
+            
+            setTimeout(() => {
+                document.querySelector('.blinking-text').classList.add('stop-blinking');
+            }, 5000); 
+        </script>
+    </body>
+</html>
